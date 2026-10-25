@@ -1,0 +1,504 @@
+{
+ "generado": "2026-10-25T15:04-03:00",
+ "prueba": true,
+ "resumen": {
+  "alvi": {
+   "n": "Alvi",
+   "fecha": "2026-10-25T15:03-03:00",
+   "ok": 3,
+   "total": 3,
+   "plantilla": "https://www.alvi.cl/search?q={q}",
+   "minutos": 0.8,
+   "error": null
+  },
+  "santaisabel": {
+   "n": "Santa Isabel",
+   "fecha": "2026-10-25T15:04-03:00",
+   "ok": 3,
+   "total": 3,
+   "plantilla": "https://www.santaisabel.cl/busqueda?ft={q}",
+   "minutos": 0.8,
+   "error": null
+  },
+  "acuenta": {
+   "n": "aCuenta",
+   "fecha": "2026-10-25T15:04-03:00",
+   "ok": 3,
+   "total": 3,
+   "plantilla": "https://www.acuenta.cl/search?name={q}",
+   "minutos": 0.9,
+   "error": null
+  },
+  "jumbo": {
+   "n": "Jumbo",
+   "fecha": "2026-10-25T15:04-03:00",
+   "ok": 3,
+   "total": 3,
+   "plantilla": "https://www.jumbo.cl/busqueda?ft={q}",
+   "minutos": 1.0,
+   "error": null
+  },
+  "lider": {
+   "n": "Lider",
+   "fecha": "2026-10-25T15:04-03:00",
+   "ok": 0,
+   "total": 3,
+   "plantilla": null,
+   "minutos": 1.0,
+   "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+  }
+ },
+ "detalle": {
+  "lider": [
+   {
+    "q": "leche entera",
+    "url": "https://super.lider.cl/search?q=leche%20entera",
+    "estado": 200,
+    "final": "https://super.lider.cl/blocked?url=L3NlYXJjaD9xPWxlY2hlJTIwZW50ZXJh&uuid=5978b782-d09e-11f1-a110-d61d990c41d2&vid=&g=b",
+    "titulo": "Robot or human?",
+    "json_urls": [
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle"
+    ],
+    "n_json": 0,
+    "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+   },
+   {
+    "q": "leche entera",
+    "url": "https://www.lider.cl/supermercado/search?query=leche%20entera",
+    "estado": 200,
+    "final": "https://super.lider.cl/blocked?url=Lz9xdWVyeT1sZWNoZSUyMGVudGVyYQ==&uuid=5978b782-d09e-11f1-a110-d61d990c41d2&vid=5aef40e4-d09e-11f1-9f09-afd2ed1c4380&g=b",
+    "titulo": "Robot or human?",
+    "json_urls": [
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle",
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle"
+    ],
+    "n_json": 0,
+    "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+   },
+   {
+    "q": "arroz grado 2",
+    "url": "https://super.lider.cl/search?q=arroz%20grado%202",
+    "estado": 200,
+    "final": "https://super.lider.cl/blocked?url=L3NlYXJjaD9xPWFycm96JTIwZ3JhZG8lMjAy&uuid=5978b782-d09e-11f1-a110-d61d990c41d2&vid=5aef40e4-d09e-11f1-9f09-afd2ed1c4380&g=b",
+    "titulo": "Robot or human?",
+    "json_urls": [
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle",
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle"
+    ],
+    "n_json": 0,
+    "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+   },
+   {
+    "q": "arroz grado 2",
+    "url": "https://www.lider.cl/supermercado/search?query=arroz%20grado%202",
+    "estado": 200,
+    "final": "https://super.lider.cl/blocked?url=L3NlYXJjaD9xPWFycm96K2dyYWRvKzI=&uuid=5978b782-d09e-11f1-a110-d61d990c41d2&vid=5aef40e4-d09e-11f1-9f09-afd2ed1c4380&g=b",
+    "titulo": "Robot or human?",
+    "json_urls": [
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle"
+    ],
+    "n_json": 0,
+    "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+   },
+   {
+    "q": "papel higienico",
+    "url": "https://super.lider.cl/search?q=papel%20higienico",
+    "estado": 200,
+    "final": "https://super.lider.cl/blocked?url=L3NlYXJjaD9xPXBhcGVsJTIwaGlnaWVuaWNv&uuid=5978b782-d09e-11f1-a110-d61d990c41d2&vid=5aef40e4-d09e-11f1-9f09-afd2ed1c4380&g=b",
+    "titulo": "Robot or human?",
+    "json_urls": [
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle",
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle"
+    ],
+    "n_json": 0,
+    "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+   },
+   {
+    "q": "papel higienico",
+    "url": "https://www.lider.cl/supermercado/search?query=papel%20higienico",
+    "estado": 200,
+    "final": "https://super.lider.cl/blocked?url=L3NlYXJjaD9xPXBhcGVsK2hpZ2llbmljbw==&uuid=5978b782-d09e-11f1-a110-d61d990c41d2&vid=5aef40e4-d09e-11f1-9f09-afd2ed1c4380&g=b",
+    "titulo": "Robot or human?",
+    "json_urls": [
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle",
+     "https://collector-pxwysh5ekd.px-cloud.net/assets/js/bundle"
+    ],
+    "n_json": 0,
+    "error": "Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'length')\n    at eval (eval at evaluate (:234:30), <anonymous>:5:18)\n    at Array.filter (<anonymous>)\n    at eval (eval at evalu"
+   }
+  ],
+  "acuenta": [
+   {
+    "q": "leche entera",
+    "url": "https://www.acuenta.cl/search?name=leche%20entera",
+    "estado": 200,
+    "final": "https://www.acuenta.cl/search?name=leche%20entera",
+    "titulo": "Supermercado SuperBodega aCuenta | Precios Baratos Siempre",
+    "json_urls": [
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://featureassets.org/v1/initialize?k=client-5yDL8raj5uXwpUd9QtTNF3EjLcwKfsRYDPCSKBRh34n&st=javascript-client&sv=3.32.0&t=1792951396068&sid=d64ff2b0-1337-4b",
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://nextgentheadless.instaleap.io/api/v3",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://resources.digital-cloud-west.medallia.com/wdcwest/133149/onsite/onsiteData1786276719761.json"
+    ],
+    "n_json": 0,
+    "n_dom": 19,
+    "n": 19,
+    "muestra": [
+     "Leche Entera Natural 1 l 1 L Soprole |  | $1050",
+     "Leche Natural Entera Caja 1 L Lider |  | $1000",
+     "Leche Entera Natural Caja 1 l 1 L Colun |  | $1150",
+     "Leche Entera Natural sin Lactosa 1 L Loncoleche... |  | $1150",
+     "Leche en Polvo Entera Bolsa 1440 g Colun |  | $8674"
+    ]
+   },
+   {
+    "q": "arroz grado 2",
+    "url": "https://www.acuenta.cl/search?name=arroz%20grado%202",
+    "estado": 200,
+    "final": "https://www.acuenta.cl/search?name=arroz%20grado%202",
+    "titulo": "Supermercado SuperBodega aCuenta | Precios Baratos Siempre",
+    "json_urls": [
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://nextgentheadless.instaleap.io/api/v3",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://resources.digital-cloud-west.medallia.com/wdcwest/133149/onsite/onsiteData1786276719761.json"
+    ],
+    "n_json": 0,
+    "n_dom": 6,
+    "n": 6,
+    "muestra": [
+     "Arroz Grado 2 Grano Largo Bolsa 1 kg Acuenta... |  | $980",
+     "Arroz Grado 2 Grano Largo y Ancho Bolsa 1 kg Li... |  | $1690",
+     "Arroz grado 2 grano largo 5 kg Acuenta |  | $898",
+     "Arroz Grado 2 Grano Largo Bolsa 1 kg Tucapel... |  | $1790",
+     "Arroz Grado 2 Grano Largo Bolsa 1 kg Tucapel... |  | $1690"
+    ]
+   },
+   {
+    "q": "papel higienico",
+    "url": "https://www.acuenta.cl/search?name=papel%20higienico",
+    "estado": 200,
+    "final": "https://www.acuenta.cl/search?name=papel%20higienico",
+    "titulo": "Supermercado SuperBodega aCuenta | Precios Baratos Siempre",
+    "json_urls": [
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://www.acuenta.cl/monitoring?o=4504645373001728&p=4505556895596544&r=us",
+     "https://nextgentheadless.instaleap.io/api/v3",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://resources.digital-cloud-west.medallia.com/wdcwest/133149/onsite/onsiteData1786276719761.json"
+    ],
+    "n_json": 0,
+    "n_dom": 31,
+    "n": 31,
+    "muestra": [
+     "Papel Higiénico Doble Hoja 20 Metros. 4 Un Conf... |  | $1000",
+     "Papel Higiénico Doble Hoja 22 Metros. 40 Un Con... |  | $12950",
+     "Papel Higiénico Doble Hoja 22 Metros 40 Un Acue... |  | $9590",
+     "Papel Higiénico Doble Hoja 50 Metros 4 Un Swan... |  | $2000",
+     "Papel Higiénico Max Una Hoja 100 m 8 Un Confort... |  | $10490"
+    ]
+   }
+  ],
+  "jumbo": [
+   {
+    "q": "leche entera",
+    "url": "https://www.jumbo.cl/busqueda?ft=leche%20entera",
+    "estado": 200,
+    "final": "https://www.jumbo.cl/busqueda?ft=leche%20entera",
+    "titulo": "Leche entera | Jumbo.cl",
+    "json_urls": [
+     "https://cdn.cookielaw.org/consent/79a05270-aedd-4748-a33f-8b6f88742a0a/79a05270-aedd-4748-a33f-8b6f88742a0a.json",
+     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "https://cdn.cookielaw.org/consent/79a05270-aedd-4748-a33f-8b6f88742a0a/019882e9-65a0-7036-9ddc-b65b9ec73e76/es.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/otFlat.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/v2/otPcCenter.json",
+     "https://assets.jumbo.cl/json/cms/page-57057.json",
+     "https://assets.jumbo.cl/json/cms/page-142308.json",
+     "https://securepubads.g.doubleclick.net/pagead/purl_config?url=https%3A%2F%2Fwww.jumbo.cl%2Fbusqueda%3Fft%3Dleche%2520entera&puc_types=2%3A4&pppnc=22639334350",
+     "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610200101&st=env&sjk=398633082418282",
+     "https://us.creativecdn.com/tags/v2?type=json&tc=1",
+     "https://api.mimolivesales.com.br/api/v2/live/pip/config?customerId=8b0477d5-bc0c-46e3-8928-afe25e8b4a71"
+    ],
+    "n_json": 80,
+    "n": 40,
+    "muestra": [
+     "Leche Colun Entera 1 L |  | $1190",
+     "Leche Surlat Entera 1 L |  | $1100",
+     "Leche Sin Lactosa Colun Entera 1 L |  | $1390",
+     "Leche Soprole Proteína Natural 1 L |  | $2240",
+     "Leche Soprole Entera Natural 1 L |  | $1350"
+    ]
+   },
+   {
+    "q": "arroz grado 2",
+    "url": "https://www.jumbo.cl/busqueda?ft=arroz%20grado%202",
+    "estado": 200,
+    "final": "https://www.jumbo.cl/busqueda?ft=arroz%20grado%202",
+    "titulo": "Arroz grado 2 | Jumbo.cl",
+    "json_urls": [
+     "https://cdn.cookielaw.org/consent/79a05270-aedd-4748-a33f-8b6f88742a0a/79a05270-aedd-4748-a33f-8b6f88742a0a.json",
+     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "https://cdn.cookielaw.org/consent/79a05270-aedd-4748-a33f-8b6f88742a0a/019882e9-65a0-7036-9ddc-b65b9ec73e76/es.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/otFlat.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/v2/otPcCenter.json",
+     "https://assets.jumbo.cl/json/cms/page-57057.json",
+     "https://assets.jumbo.cl/json/cms/page-142308.json",
+     "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610210101&st=env&sjk=6274365355304731",
+     "https://us.creativecdn.com/tags/v2?type=json",
+     "https://api.mimolivesales.com.br/api/v2/live/pip/config?customerId=8b0477d5-bc0c-46e3-8928-afe25e8b4a71"
+    ],
+    "n_json": 20,
+    "n": 10,
+    "muestra": [
+     "Arroz Grado 2 Cuisine & Co Grano Largo y Ancho 1 kg |  | $1750",
+     "Arroz Grado 2 Tucapel Blue Grano Largo y Delgado 1 kg |  | $1810",
+     "Arroz Grado 2 Cuisine & Co Largo y Delgado 1 kg |  | $1430",
+     "Arroz Grado 2 Tucapel Gran Selección Grano Largo y Ancho 1 kg |  | $2130",
+     "Arroz Grado 2 Banquete Premium Grano Largo y Ancho 1 kg |  | $2330"
+    ]
+   },
+   {
+    "q": "papel higienico",
+    "url": "https://www.jumbo.cl/busqueda?ft=papel%20higienico",
+    "estado": 200,
+    "final": "https://www.jumbo.cl/busqueda?ft=papel%20higienico",
+    "titulo": "Papel higienico | Jumbo.cl",
+    "json_urls": [
+     "https://cdn.cookielaw.org/consent/79a05270-aedd-4748-a33f-8b6f88742a0a/79a05270-aedd-4748-a33f-8b6f88742a0a.json",
+     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "https://cdn.cookielaw.org/consent/79a05270-aedd-4748-a33f-8b6f88742a0a/019882e9-65a0-7036-9ddc-b65b9ec73e76/es.json",
+     "https://assets.jumbo.cl/json/cms/page-57057.json",
+     "https://assets.jumbo.cl/json/cms/page-142308.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/otFlat.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/v2/otPcCenter.json",
+     "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610200101&st=env&sjk=4767096309929912",
+     "https://api.mimolivesales.com.br/api/v2/live/pip/config?customerId=8b0477d5-bc0c-46e3-8928-afe25e8b4a71",
+     "https://us.creativecdn.com/tags/v2?type=json"
+    ],
+    "n_json": 80,
+    "n": 40,
+    "muestra": [
+     "Papel Higiénico Elite Doble Hoja Ultra 50 m 8 un. |  | $7599",
+     "Papel Higiénico Family Care Doble Hoja 22 m 4 un. |  | $1290",
+     "Papel Higiénico Elite Ultra Suave Doble Hoja 50 m 18 un. |  | $15919",
+     "Papel Higiénico Elite Soft & Strong Triple Hoja 40 m 12 un. |  | $11570",
+     "Papel Higiénico Favorita Soft Care Doble Hoja 50 m 4 un. |  | $2990"
+    ]
+   }
+  ],
+  "santaisabel": [
+   {
+    "q": "leche entera",
+    "url": "https://www.santaisabel.cl/busqueda?ft=leche%20entera",
+    "estado": 200,
+    "final": "https://www.santaisabel.cl/busqueda?ft=leche%20entera",
+    "titulo": "Leche entera | Santa Isabel",
+    "json_urls": [
+     "https://cdn.cookielaw.org/consent/01978921-91c3-7984-a2de-0a4b28ff8357/01978921-91c3-7984-a2de-0a4b28ff8357.json",
+     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "https://assets.santaisabel.cl/json/cms/page-14035.json",
+     "https://assets.santaisabel.cl/json/cms/page-42623.json",
+     "https://cdn.cookielaw.org/consent/01978921-91c3-7984-a2de-0a4b28ff8357/0199780b-2c9b-7ba3-957b-bfef4ec5a2f7/es.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/otFlat.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/v2/otPcCenter.json",
+     "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610200101&st=env&sjk=4601836792928309",
+     "https://api.mimolivesales.com.br/api/v2/live/pip/config?customerId=8b0477d5-bc0c-46e3-8928-afe25e8b4a71",
+     "https://us.creativecdn.com/tags/v2?type=json&tc=1",
+     "https://prompts.maze.co/api/widgets"
+    ],
+    "n_json": 72,
+    "n": 36,
+    "muestra": [
+     "Leche Soprole Entera Natural 1 L |  | $1150",
+     "Leche Surlat Entera 1 L |  | $1030",
+     "Leche Colun Entera 1 L |  | $1150",
+     "Leche Cuisine & Co Entera 1 L |  | $1100",
+     "Leche Colun Entera 200 ml |  | $670"
+    ]
+   },
+   {
+    "q": "arroz grado 2",
+    "url": "https://www.santaisabel.cl/busqueda?ft=arroz%20grado%202",
+    "estado": 200,
+    "final": "https://www.santaisabel.cl/busqueda?ft=arroz%20grado%202",
+    "titulo": "Arroz grado 2 | Santa Isabel",
+    "json_urls": [
+     "https://cdn.cookielaw.org/consent/01978921-91c3-7984-a2de-0a4b28ff8357/01978921-91c3-7984-a2de-0a4b28ff8357.json",
+     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "https://assets.santaisabel.cl/json/cms/page-14035.json",
+     "https://assets.santaisabel.cl/json/cms/page-42623.json",
+     "https://cdn.cookielaw.org/consent/01978921-91c3-7984-a2de-0a4b28ff8357/0199780b-2c9b-7ba3-957b-bfef4ec5a2f7/es.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/otFlat.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/v2/otPcCenter.json",
+     "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610200101&st=env&sjk=3203147621500971",
+     "https://api.mimolivesales.com.br/api/v2/live/pip/config?customerId=8b0477d5-bc0c-46e3-8928-afe25e8b4a71",
+     "https://us.creativecdn.com/tags/v2?type=json"
+    ],
+    "n_json": 22,
+    "n": 11,
+    "muestra": [
+     "Arroz Grado 2 Máxima Grano Largo Angosto 1 kg |  | $950",
+     "Arroz Grado 2 Cuisine & Co Largo y Delgado 1 kg |  | $1250",
+     "Arroz Coliseo Grado 2 - 1 kg |  | $1050",
+     "Arroz Grado 2 Miraflores Grano Largo y Laminado 1 kg |  | $2280",
+     "Arroz Grado 2 Tucapel Blue Grano Largo y Delgado 1 kg |  | $1900"
+    ]
+   },
+   {
+    "q": "papel higienico",
+    "url": "https://www.santaisabel.cl/busqueda?ft=papel%20higienico",
+    "estado": 200,
+    "final": "https://www.santaisabel.cl/busqueda?ft=papel%20higienico",
+    "titulo": "Papel higienico | Santa Isabel",
+    "json_urls": [
+     "https://cdn.cookielaw.org/consent/01978921-91c3-7984-a2de-0a4b28ff8357/01978921-91c3-7984-a2de-0a4b28ff8357.json",
+     "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+     "https://cdn.cookielaw.org/consent/01978921-91c3-7984-a2de-0a4b28ff8357/0199780b-2c9b-7ba3-957b-bfef4ec5a2f7/es.json",
+     "https://assets.santaisabel.cl/json/cms/page-14035.json",
+     "https://assets.santaisabel.cl/json/cms/page-42623.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/v2/otPcCenter.json",
+     "https://cdn.cookielaw.org/scripttemplates/202507.1.0/assets/otFlat.json",
+     "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610200101&st=env&sjk=2407305249349648",
+     "https://api.mimolivesales.com.br/api/v2/live/pip/config?customerId=8b0477d5-bc0c-46e3-8928-afe25e8b4a71",
+     "https://us.creativecdn.com/tags/v2?type=json"
+    ],
+    "n_json": 80,
+    "n": 40,
+    "muestra": [
+     "Papel Higiénico Noble Doble Hoja 23 m 4 un. |  | $940",
+     "Papel Higiénico Confort Rendiplus Doble Hoja 27 m 12 un. |  | $4750",
+     "Papel Higiénico Favorita Lavanda 22 m 40 un. |  | $10990",
+     "Papel Higiénico Favorita Sensación Sueños de Verano 22 m 4 un. |  | $1190",
+     "Papel Higiénico Confort Doble Hoja Rendiplus 60 m 4 un. |  | $2990"
+    ]
+   }
+  ],
+  "alvi": [
+   {
+    "q": "leche entera",
+    "url": "https://www.alvi.cl/search?q=leche%20entera",
+    "estado": 200,
+    "final": "https://www.alvi.cl/search?q=leche%20entera",
+    "titulo": "Alvi",
+    "json_urls": [
+     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1FI9UQswEKFlLwNfFMsDGW",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=3KsF8CJVJWBVpqOykXGv3i",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=categoriesApp&sys.id[in]=4TMBhOiEMQGcWgesH1ASsa",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=viewBlock&sys.id[in]=4AYXEZsbksK9uiiEZJT4GE",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=viewBlock&fields.blockId[in]=nivelesMenuClubAlvi",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1veWIrueF6IumnsVPs2UKv",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1yhiigahLxpFPzVr1QwGNz",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=webTopFooter,webMiddleFooter,webBottomFooter",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=7sSegZ2gp3NVGkOKJYNcmt",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=68czQHpsWvrjtdgVKE8E9W",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.id[in]=S7cWMkpySGyd7U2FmJvlm",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=campaignsWebTest",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=home&sys.id[in]=4JOyVsXlRL5xVbw4APQBbD",
+     "https://bff-alvi-web.alvi.cl/cart/simulate",
+     "https://bff-alvi-web.alvi.cl/products/top-search",
+     "https://bff-alvi-web.alvi.cl/categories/",
+     "https://bff-alvi-web.alvi.cl/products/intelligence-search/leche%20entera/?from=0&hideUnavailableItems=1&to=49",
+     "https://ekr.zdassets.com/compose/7c6969a2-418e-4df7-a219-98dab62df96f"
+    ],
+    "n_json": 40,
+    "n": 20,
+    "muestra": [
+     "Leche en polvo Calo entera instantánea bolsa 850 g | Calo | $6490",
+     "Leche en polvo Nido entera 800 g | Nido | $9050",
+     "Leche en polvo Calo entera instantánea bolsa 1.440 Kg | Calo | $11250",
+     "Leche entera Surlat sin lactosa 1 L | Surlat | $1170",
+     "Leche en polvo entera instantánea bolsa | Colun | $12790"
+    ]
+   },
+   {
+    "q": "arroz grado 2",
+    "url": "https://www.alvi.cl/search?q=arroz%20grado%202",
+    "estado": 200,
+    "final": "https://www.alvi.cl/search?q=arroz%20grado%202",
+    "titulo": "Alvi",
+    "json_urls": [
+     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=home&sys.id[in]=4JOyVsXlRL5xVbw4APQBbD",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=categoriesApp&sys.id[in]=4TMBhOiEMQGcWgesH1ASsa",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=viewBlock&sys.id[in]=4AYXEZsbksK9uiiEZJT4GE",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=viewBlock&fields.blockId[in]=nivelesMenuClubAlvi",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1FI9UQswEKFlLwNfFMsDGW",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1yhiigahLxpFPzVr1QwGNz",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1veWIrueF6IumnsVPs2UKv",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=68czQHpsWvrjtdgVKE8E9W",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=7sSegZ2gp3NVGkOKJYNcmt",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=campaignsWebTest",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=3KsF8CJVJWBVpqOykXGv3i",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=webTopFooter,webMiddleFooter,webBottomFooter",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.id[in]=S7cWMkpySGyd7U2FmJvlm",
+     "https://bff-alvi-web.alvi.cl/cart/simulate",
+     "https://bff-alvi-web.alvi.cl/categories/",
+     "https://bff-alvi-web.alvi.cl/products/top-search",
+     "https://bff-alvi-web.alvi.cl/products/intelligence-search/arroz%20grado%202/?from=0&hideUnavailableItems=1&to=49",
+     "https://ekr.zdassets.com/compose/7c6969a2-418e-4df7-a219-98dab62df96f"
+    ],
+    "n_json": 8,
+    "n": 4,
+    "muestra": [
+     "Arroz Merkat largo delgado grado 2 1 Kg | Merkat | $790",
+     "Arroz Tucapel grado 2 grano largo ancho food service 2 Kg | Tucapel | $3620",
+     "Arroz grano largo delgado grado 2 900G | Aruba | $990",
+     "Arroz Merkat grado 2 largo delgado 5 Kg | Merkat | $6250"
+    ]
+   },
+   {
+    "q": "papel higienico",
+    "url": "https://www.alvi.cl/search?q=papel%20higienico",
+    "estado": 200,
+    "final": "https://www.alvi.cl/search?q=papel%20higienico",
+    "titulo": "Alvi",
+    "json_urls": [
+     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=home&sys.id[in]=4JOyVsXlRL5xVbw4APQBbD",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=categoriesApp&sys.id[in]=4TMBhOiEMQGcWgesH1ASsa",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=viewBlock&sys.id[in]=4AYXEZsbksK9uiiEZJT4GE",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=viewBlock&fields.blockId[in]=nivelesMenuClubAlvi",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1FI9UQswEKFlLwNfFMsDGW",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1veWIrueF6IumnsVPs2UKv",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=1yhiigahLxpFPzVr1QwGNz",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=7sSegZ2gp3NVGkOKJYNcmt",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=68czQHpsWvrjtdgVKE8E9W",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?content_type=campaignsWebTest",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.contentType.sys.id[in]=webTopFooter,webMiddleFooter,webBottomFooter",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/assets?sys.id=3KsF8CJVJWBVpqOykXGv3i",
+     "https://cdn.contentful.com/spaces/un6yvtd6uq5z/environments/master/entries?sys.id[in]=S7cWMkpySGyd7U2FmJvlm",
+     "https://bff-alvi-web.alvi.cl/cart/simulate",
+     "https://bff-alvi-web.alvi.cl/categories/",
+     "https://bff-alvi-web.alvi.cl/products/top-search",
+     "https://ekr.zdassets.com/compose/7c6969a2-418e-4df7-a219-98dab62df96f",
+     "https://bff-alvi-web.alvi.cl/products/intelligence-search/papel%20higienico/?from=0&hideUnavailableItems=1&to=49"
+    ],
+    "n_json": 70,
+    "n": 35,
+    "muestra": [
+     "Papel higiénico doble hoja 4 un de 22 m | Confort | $1090",
+     "Papel higiénico doble hoja 4 un 23 mt | Noble | $990",
+     "Papel higiénico doble hoja 40 m x 8 un | Confort | $3950",
+     "Papel higiénico rindemax doble hoja 6 un de 22 m | Scott | $1750",
+     "Papel higiénico Nubelin premium doble hoja 18 un de 40 m | Nubelin | $9990"
+    ]
+   }
+  ]
+ }
+}
