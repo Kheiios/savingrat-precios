@@ -259,7 +259,7 @@ JS_DOM = r"""
           } else if (/\d+\s*(x|por|o\s*m[aá]s|un\.?|unidades)\b[^$]{0,25}\$\s?\d/i.test(s) && !reUnidad.test(s.replace(/c\/u/i, ''))) escalas.push(s);
         }
         out.push({nombre, precios, escalas, url: a.href, img: [img.getAttribute('data-src'), img.currentSrc, img.src, (img.getAttribute('srcset') || '').split(' ')[0]].find(u => u && /^https?:/.test(u)) || '',
-                  marca: (lineas.find(s => s === s.toUpperCase() && s.length > 1 && s.length < 30 && !/\$/.test(s)) || '')});
+                  marca: (lineas.find(s => s === s.toUpperCase() && s.length > 1 && s.length < 30 && !/[$%\d]/.test(s) && !/^(nuevo|oferta|agotado|exclusivo)/i.test(s)) || '')});
         break;
       }
     }
@@ -294,9 +294,14 @@ def de_dom(items):
         if not nums or len(it.get("nombre", "")) < 4:
             continue
         esc = escalas_texto(it.get("escalas"), max(nums))
-        # los precios que aparecen en textos de "lleva N" no son el precio de 1 unidad
+        # los montos que aparecen en textos de "lleva N" (total o c/u) no son el precio de 1 unidad
         en_esc = {u for _, u in esc}
-        nums = [n for n in nums if n not in en_esc] or nums
+        for t in it.get("escalas") or []:
+            en_esc |= {precio_num(x) for x in re.findall(r"\$\s?[\d.]+", t)}
+        solo = [n for n in nums if n not in en_esc]
+        if esc and not solo:
+            continue  # solo se ve el precio de promoción por cantidad: no se sabe el de 1 unidad
+        nums = solo or nums
         precio, escalas = ordenar_escalas(int(min(nums)), esc)
         res.append({"nombre": it["nombre"][:200], "marca": (it.get("marca") or "")[:40], "precio": precio,
                     "escalas": escalas or None,
