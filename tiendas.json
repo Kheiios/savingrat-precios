@@ -1,11 +1,13 @@
 {
-  "_ayuda": "Direcciones de búsqueda de cada supermercado. {q} se reemplaza por el texto a buscar. Si hay varias, el programa prueba en orden y usa la primera que entregue productos.",
+  "_ayuda": "Direcciones de búsqueda de cada supermercado. {q} se reemplaza por el texto a buscar. Si hay varias, el programa prueba en orden y usa la primera que entregue productos. Con \"auto\": false la tienda no se busca automáticamente (solo precios de boletas).",
   "lider": {
     "n": "Lider",
     "buscar": [
       "https://super.lider.cl/search?q={q}",
       "https://www.lider.cl/supermercado/search?query={q}"
-    ]
+    ],
+    "auto": false,
+    "nota": "El sitio de Lider bloquea las búsquedas automáticas; sus precios vienen de las boletas que registren."
   },
   "acuenta": {
     "n": "aCuenta",
@@ -35,6 +37,20 @@
       "https://www.alvi.cl/search?q={q}",
       "https://www.alvi.cl/busqueda?ft={q}",
       "https://www.alvi.cl/{q}?_q={q}&map=ft"
+    ]
+  },
+  "unimarc": {
+    "n": "Unimarc",
+    "buscar": [
+      "https://www.unimarc.cl/search?q={q}",
+      "https://www.unimarc.cl/busqueda?ft={q}"
+    ]
+  },
+  "tottus": {
+    "n": "Tottus",
+    "buscar": [
+      "https://www.tottus.cl/tottus-cl/buscar?Ntt={q}",
+      "https://www.tottus.cl/buscar?Ntt={q}"
     ]
   }
 }
