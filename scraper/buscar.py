@@ -98,7 +98,8 @@ class Buscador:
             for m in re.finditer(r'<script[^>]*(?:id="__NEXT_DATA__"|type="application/(?:ld\+)?json")[^>]*>(.*?)</script>', html, re.S):
                 try:
                     obj = json.loads(m.group(1))
-                    productos += de_json(obj, page.url) + de_jsonld(obj, page.url)
+                    # schema.org primero: trae marca y foto
+                    productos = de_jsonld(obj, page.url) + productos + de_json(obj, page.url)
                 except Exception:
                     pass
             d["json_urls"] = [u[:160] for u, _ in cuerpos][:20]
@@ -109,14 +110,18 @@ class Buscador:
                 productos += dom
             if RE_BLOQUEO.search(d["titulo"]) and not productos:
                 d["error"] = "bloqueado: " + d["titulo"]
-            vistos, unicos = set(), []
+            vistos, unicos = {}, []
             for p in productos:
                 k = (p["nombre"].lower(), p["precio"])
                 if k not in vistos:
-                    vistos.add(k)
+                    vistos[k] = p
                     unicos.append(p)
+                else:  # completa marca, foto o enlace que le falten
+                    for campo in ("marca", "img", "url"):
+                        if not vistos[k].get(campo) and p.get(campo):
+                            vistos[k][campo] = p[campo]
             d["n"] = len(unicos)
-            d["muestra"] = [f'{p["nombre"]} | {p["marca"]} | ${p["precio"]}' for p in unicos[:5]]
+            d["muestra"] = [f'{p["nombre"]} | {p["marca"]} | ${p["precio"]}' + (f' | escalas {p["escalas"]}' if p.get("escalas") else '') for p in unicos[:5]]
             if self.depurar:
                 os.makedirs(os.path.join(DATA, "debug"), exist_ok=True)
                 base = os.path.join(DATA, "debug", f"{self.tid}-{re.sub(r'[^a-z0-9]+', '-', q)}")
@@ -168,7 +173,10 @@ async def correr_tienda(tid, cfg, browser, vars_, depurar, salida, resumen):
             if not cumple(p["nombre"], v):
                 continue
             cant = cantidad(p["nombre"], v["u"])
-            filas.append([p["nombre"], p["marca"], p["precio"], p["normal"], cant, p["url"], p["img"]])
+            fila = [p["nombre"], p["marca"], p["precio"], p["normal"], cant, p["url"], p["img"]]
+            if p.get("escalas"):
+                fila.append(p["escalas"])  # [[cantidad mínima, precio c/u], ...]
+            filas.append(fila)
         if filas:
             ok += 1
             salida.setdefault(v["id"], {})[tid] = ordenar(filas, v["u"])[:MAX_POR_TIENDA]
@@ -193,6 +201,8 @@ async def principal(args):
         catalogo = json.load(f)
     with open(os.environ.get("TIENDAS_JSON") or os.path.join(BASE, "tiendas.json"), encoding="utf-8") as f:
         tiendas = {k: v for k, v in json.load(f).items() if not k.startswith("_")}
+    manuales = {k: v for k, v in tiendas.items() if v.get("auto") is False}
+    tiendas = {k: v for k, v in tiendas.items() if v.get("auto") is not False}
     if args.tiendas:
         tiendas = {k: v for k, v in tiendas.items() if k in args.tiendas.split(",")}
     vars_ = list(variantes(catalogo))
@@ -241,10 +251,15 @@ async def principal(args):
                 if tid in porti:
                     salida.setdefault(vid, {})[tid] = porti[tid]
 
+    for tid, cfg in manuales.items():
+        resumen[tid] = {"n": cfg["n"], "manual": True, "nota": cfg.get("nota", "")}
     with open(destino, "w", encoding="utf-8") as f:
         json.dump({"generado": ahora(), "tiendas": resumen, "v": salida}, f, ensure_ascii=False, separators=(",", ":"))
     print("\nResumen:")
     for t, r in resumen.items():
+        if r.get("manual"):
+            print(f"  {r['n']:<13} solo precios de boletas")
+            continue
         print(f"  {r['n']:<13} {r.get('ok', 0):>3}/{r.get('total', 0)} variantes con precio"
               + (f"  ERROR: {r['error']}" if r.get("error") else ""))
 

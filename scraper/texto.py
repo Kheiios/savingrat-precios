@@ -68,7 +68,7 @@ def formato(nombre):
             if m:
                 u, f = _UNI[m.group(2)]
                 res[u] = _f(m.group(1)) * f
-    m = re.search(r"(?:pack|caja|display)\s*(?:de\s*)?(\d+)", n)
+    m = re.search(r"(?:pack|caja|display)\s*(?:de\s*)?(\d+)(?![\d.,]*\s*(?:kgs?|kilos?|gramos|grs?|g|litros?|lts?|l|ml|cc|cm3)(?![a-z]))", n)
     if m and "un" not in res:
         k = int(m.group(1))
         res["un"] = k
