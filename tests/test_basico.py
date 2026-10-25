@@ -92,6 +92,29 @@ def test_dom():
     assert ps[0]["precio"] == 1090 and ps[0]["normal"] == 1290
 
 
+
+
+def test_escalas_dom_alvi():
+    d = de_dom([{"nombre": "Leche en polvo Calo 850 g", "precios": ["$6.490", "$6.790", "$7.090"],
+                 "escalas": ["Desde 2 un $6.490 c/u", "Desde 1 un $6.790 c/u"], "url": "", "img": ""}])[0]
+    assert d["precio"] == 7090 and d["escalas"] == [[1, 6790], [2, 6490]], d
+
+
+def test_escalas():
+    alvi = {"availableProducts": [{"productId": "1", "name": "Leche en polvo Calo 850 g", "brand": "Calo",
+            "sellers": [{"price": 7090, "listPrice": 7090}],
+            "priceSteps": [{"promotionalPrice": 6790, "minQuantity": 1, "ppum": "$7.988 x Kg"},
+                           {"promotionalPrice": 6490, "minQuantity": 2, "ppum": "$7.635 x Kg"}]}]}
+    p = de_json(alvi)[0]
+    assert p["precio"] == 7090 and p["escalas"] == [[1, 6790], [2, 6490]], p
+    tottus = {"results": [{"displayName": "Arroz Grado 2 1 kg", "brand": "Tucapel", "productId": "9",
+              "prices": [{"price": ["1.290"], "type": "internetPrice"}, {"price": ["1.490"], "type": "normalPrice"}]}]}
+    t = de_json(tottus)[0]
+    assert t["precio"] == 1290, t
+    d = de_dom([{"nombre": "Leche Entera 1 L", "precios": ["$1.190", "$3.300"], "escalas": ["Lleva 3 x $3.300"], "url": "", "img": ""}])[0]
+    assert d["precio"] == 1190 and d["escalas"] == [[3, 1100]], d
+
+
 if __name__ == "__main__":
     for k, f in list(globals().items()):
         if k.startswith("test_"):
