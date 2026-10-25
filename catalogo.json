@@ -1,0 +1,2793 @@
+{
+ "version": 1,
+ "categorias": [
+  {
+   "id": "lacteos",
+   "n": "Lácteos y huevos",
+   "e": "🥛",
+   "p": [
+    {
+     "id": "leche",
+     "n": "Leche",
+     "v": [
+      {
+       "id": "leche-entera",
+       "n": "Entera",
+       "q": "leche entera",
+       "inc": [
+        "leche",
+        "entera|natural"
+       ],
+       "exc": [
+        "polvo",
+        "lactosa",
+        "descrem",
+        "semi",
+        "chocolate",
+        "frutilla",
+        "vainilla",
+        "platano",
+        "manjar",
+        "sabor",
+        "cafe",
+        "condensada",
+        "evaporada",
+        "cabra",
+        "almendra",
+        "avena",
+        "soya",
+        "coco",
+        "crema",
+        "cultivada",
+        "yogh",
+        "yogur",
+        "infantil",
+        "formula",
+        "cereal",
+        "galleta",
+        "chocolat"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "leche-semi",
+       "n": "Semidescremada",
+       "q": "leche semidescremada",
+       "inc": [
+        "leche",
+        "semidesc|semi desc|semi-desc"
+       ],
+       "exc": [
+        "polvo",
+        "lactosa",
+        "chocolate",
+        "frutilla",
+        "vainilla",
+        "platano",
+        "manjar",
+        "sabor",
+        "cafe",
+        "condensada",
+        "evaporada",
+        "cabra",
+        "almendra",
+        "avena",
+        "soya",
+        "coco",
+        "crema",
+        "cultivada",
+        "yogh",
+        "yogur",
+        "infantil",
+        "formula",
+        "cereal",
+        "galleta",
+        "chocolat"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "leche-descremada",
+       "n": "Descremada",
+       "q": "leche descremada",
+       "inc": [
+        "leche",
+        "descrem"
+       ],
+       "exc": [
+        "semi",
+        "polvo",
+        "lactosa",
+        "chocolate",
+        "frutilla",
+        "vainilla",
+        "platano",
+        "manjar",
+        "sabor",
+        "cafe",
+        "condensada",
+        "evaporada",
+        "cabra",
+        "almendra",
+        "avena",
+        "soya",
+        "coco",
+        "crema",
+        "cultivada",
+        "yogh",
+        "yogur",
+        "infantil",
+        "formula",
+        "cereal",
+        "galleta",
+        "chocolat"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "leche-sl",
+       "n": "Sin lactosa",
+       "q": "leche sin lactosa",
+       "inc": [
+        "leche",
+        "lactosa"
+       ],
+       "exc": [
+        "polvo",
+        "chocolate",
+        "frutilla",
+        "vainilla",
+        "platano",
+        "manjar",
+        "sabor",
+        "cafe",
+        "condensada",
+        "evaporada",
+        "cabra",
+        "almendra",
+        "avena",
+        "soya",
+        "coco",
+        "crema",
+        "cultivada",
+        "yogh",
+        "yogur",
+        "infantil",
+        "formula",
+        "cereal",
+        "galleta",
+        "chocolat"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "leche-sl-descremada",
+       "n": "Sin lactosa descremada",
+       "q": "leche sin lactosa descremada",
+       "inc": [
+        "leche",
+        "lactosa",
+        "descrem"
+       ],
+       "exc": [
+        "semi",
+        "polvo",
+        "chocolate",
+        "frutilla",
+        "vainilla",
+        "platano",
+        "manjar",
+        "sabor",
+        "cafe",
+        "condensada",
+        "evaporada",
+        "cabra",
+        "almendra",
+        "avena",
+        "soya",
+        "coco",
+        "crema",
+        "cultivada",
+        "yogh",
+        "yogur",
+        "infantil",
+        "formula",
+        "cereal",
+        "galleta",
+        "chocolat"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "leche-sl-semi",
+       "n": "Sin lactosa semidescremada",
+       "q": "leche sin lactosa semidescremada",
+       "inc": [
+        "leche",
+        "lactosa",
+        "semi"
+       ],
+       "exc": [
+        "polvo",
+        "chocolate",
+        "frutilla",
+        "vainilla",
+        "platano",
+        "manjar",
+        "sabor",
+        "cafe",
+        "condensada",
+        "evaporada",
+        "cabra",
+        "almendra",
+        "avena",
+        "soya",
+        "coco",
+        "crema",
+        "cultivada",
+        "yogh",
+        "yogur",
+        "infantil",
+        "formula",
+        "cereal",
+        "galleta",
+        "chocolat"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "leche-polvo",
+       "n": "En polvo",
+       "q": "leche en polvo",
+       "inc": [
+        "leche",
+        "polvo"
+       ],
+       "exc": [
+        "infantil",
+        "formula",
+        "etapa",
+        "chocolate",
+        "saborizante"
+       ],
+       "u": "kg",
+       "e": "🥛",
+       "x": 1
+      },
+      {
+       "id": "leche-sabor",
+       "n": "Con sabor",
+       "q": "leche chocolate",
+       "inc": [
+        "leche",
+        "chocolate|frutilla|vainilla|platano|sabor"
+       ],
+       "exc": [
+        "polvo",
+        "condensada",
+        "galleta",
+        "barra",
+        "tableta"
+       ],
+       "u": "l",
+       "e": "🍫",
+       "x": 1
+      },
+      {
+       "id": "bebida-vegetal",
+       "n": "Bebida vegetal",
+       "q": "bebida vegetal",
+       "inc": [
+        "bebida|leche",
+        "almendra|avena|soya|coco|vegetal"
+       ],
+       "exc": [
+        "polvo",
+        "galleta"
+       ],
+       "u": "l",
+       "e": "🌰",
+       "x": 1
+      }
+     ],
+     "e": "🥛"
+    },
+    {
+     "id": "yogur",
+     "n": "Yogur",
+     "v": [
+      {
+       "id": "yogur-batido",
+       "n": "Batido",
+       "q": "yoghurt batido",
+       "inc": [
+        "yogh|yogur"
+       ],
+       "exc": [
+        "griego",
+        "protein",
+        "bebible",
+        "cereal"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "yogur-griego",
+       "n": "Griego",
+       "q": "yoghurt griego",
+       "inc": [
+        "yogh|yogur",
+        "griego"
+       ],
+       "exc": [],
+       "u": "kg"
+      },
+      {
+       "id": "yogur-bebible",
+       "n": "Bebible",
+       "q": "yoghurt bebible",
+       "inc": [
+        "yogh|yogur",
+        "bebible|liquido"
+       ],
+       "exc": [],
+       "u": "l"
+      },
+      {
+       "id": "yogur-protein",
+       "n": "Proteína",
+       "q": "yoghurt protein",
+       "inc": [
+        "yogh|yogur",
+        "protein"
+       ],
+       "exc": [],
+       "u": "kg",
+       "x": 1
+      }
+     ],
+     "e": "🍦"
+    },
+    {
+     "id": "queso",
+     "n": "Queso",
+     "v": [
+      {
+       "id": "queso-laminado",
+       "n": "Laminado",
+       "q": "queso laminado",
+       "inc": [
+        "queso",
+        "lamin|rebanad|tajad"
+       ],
+       "exc": [
+        "crema",
+        "rallado"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "queso-gauda",
+       "n": "Gauda (trozo)",
+       "q": "queso gauda",
+       "inc": [
+        "queso",
+        "gauda"
+       ],
+       "exc": [
+        "lamin",
+        "rallado"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "queso-mantecoso",
+       "n": "Mantecoso",
+       "q": "queso mantecoso",
+       "inc": [
+        "queso",
+        "mantecoso"
+       ],
+       "exc": [
+        "rallado"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "queso-rallado",
+       "n": "Rallado",
+       "q": "queso rallado",
+       "inc": [
+        "queso",
+        "rallado"
+       ],
+       "exc": [],
+       "u": "kg",
+       "x": 1
+      },
+      {
+       "id": "quesillo",
+       "n": "Quesillo / fresco",
+       "q": "quesillo",
+       "inc": [
+        "quesillo|queso fresco"
+       ],
+       "exc": [],
+       "u": "kg"
+      },
+      {
+       "id": "queso-crema",
+       "n": "Queso crema",
+       "q": "queso crema",
+       "inc": [
+        "queso",
+        "crema"
+       ],
+       "exc": [],
+       "u": "kg",
+       "x": 1
+      }
+     ],
+     "e": "🧀"
+    },
+    {
+     "id": "mantequilla",
+     "n": "Mantequilla y margarina",
+     "v": [
+      {
+       "id": "mantequilla",
+       "n": "Mantequilla",
+       "q": "mantequilla",
+       "inc": [
+        "mantequilla"
+       ],
+       "exc": [
+        "mani",
+        "galleta"
+       ],
+       "u": "kg",
+       "e": "🧈"
+      },
+      {
+       "id": "margarina",
+       "n": "Margarina",
+       "q": "margarina",
+       "inc": [
+        "margarina"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🧈"
+      }
+     ],
+     "g": 1,
+     "e": "🧈"
+    },
+    {
+     "id": "crema",
+     "n": "Crema y otros",
+     "v": [
+      {
+       "id": "crema-leche",
+       "n": "Crema de leche",
+       "q": "crema de leche",
+       "inc": [
+        "crema"
+       ],
+       "exc": [
+        "helado",
+        "corporal",
+        "facial",
+        "dental",
+        "mani",
+        "queso"
+       ],
+       "u": "l",
+       "e": "🥛"
+      },
+      {
+       "id": "leche-condensada",
+       "n": "Leche condensada",
+       "q": "leche condensada",
+       "inc": [
+        "condensada"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🥫",
+       "x": 1
+      },
+      {
+       "id": "manjar",
+       "n": "Manjar",
+       "q": "manjar",
+       "inc": [
+        "manjar"
+       ],
+       "exc": [
+        "galleta",
+        "alfajor",
+        "leche sabor",
+        "yogh"
+       ],
+       "u": "kg",
+       "e": "🍯",
+       "x": 1
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "huevos",
+     "n": "Huevos",
+     "v": [
+      {
+       "id": "huevos",
+       "n": "Cualquiera",
+       "q": "huevos",
+       "inc": [
+        "huevo"
+       ],
+       "exc": [
+        "chocolate",
+        "pascua",
+        "codorniz",
+        "kinder",
+        "fideo",
+        "pasta"
+       ],
+       "u": "un",
+       "e": "🥚"
+      },
+      {
+       "id": "huevos-blancos",
+       "n": "Blancos",
+       "q": "huevos blancos",
+       "inc": [
+        "huevo",
+        "blanco"
+       ],
+       "exc": [
+        "chocolate",
+        "pascua",
+        "codorniz"
+       ],
+       "u": "un"
+      },
+      {
+       "id": "huevos-color",
+       "n": "De color",
+       "q": "huevos color",
+       "inc": [
+        "huevo",
+        "color"
+       ],
+       "exc": [
+        "chocolate",
+        "pascua",
+        "codorniz"
+       ],
+       "u": "un"
+      }
+     ],
+     "e": "🥚"
+    }
+   ]
+  },
+  {
+   "id": "desayuno",
+   "n": "Pan y desayuno",
+   "e": "🍞",
+   "p": [
+    {
+     "id": "pan",
+     "n": "Pan",
+     "v": [
+      {
+       "id": "pan-molde-blanco",
+       "n": "Molde blanco",
+       "q": "pan de molde blanco",
+       "inc": [
+        "pan",
+        "molde|blanco"
+       ],
+       "exc": [
+        "integral",
+        "rallado",
+        "pita",
+        "hamburguesa",
+        "hot dog"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "pan-molde-integral",
+       "n": "Molde integral",
+       "q": "pan de molde integral",
+       "inc": [
+        "pan",
+        "integral"
+       ],
+       "exc": [
+        "rallado",
+        "pita",
+        "galleta"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "marraqueta",
+       "n": "Marraqueta",
+       "q": "marraqueta",
+       "inc": [
+        "marraqueta"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🥖"
+      },
+      {
+       "id": "hallulla",
+       "n": "Hallulla",
+       "q": "hallulla",
+       "inc": [
+        "hallulla"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🫓"
+      },
+      {
+       "id": "pan-pita",
+       "n": "Pita / tortillas",
+       "q": "pan pita",
+       "inc": [
+        "pita|tortilla|wrap"
+       ],
+       "exc": [
+        "chips"
+       ],
+       "u": "kg",
+       "e": "🌯",
+       "x": 1
+      }
+     ],
+     "e": "🍞"
+    },
+    {
+     "id": "cereales",
+     "n": "Cereales y avena",
+     "v": [
+      {
+       "id": "avena",
+       "n": "Avena",
+       "q": "avena",
+       "inc": [
+        "avena"
+       ],
+       "exc": [
+        "bebida",
+        "leche",
+        "galleta",
+        "barra",
+        "jabon",
+        "shampoo"
+       ],
+       "u": "kg",
+       "e": "🥣"
+      },
+      {
+       "id": "cereal",
+       "n": "Cereal de desayuno",
+       "q": "cereal",
+       "inc": [
+        "cereal"
+       ],
+       "exc": [
+        "barra",
+        "yogh",
+        "infantil"
+       ],
+       "u": "kg",
+       "e": "🥣"
+      },
+      {
+       "id": "granola",
+       "n": "Granola",
+       "q": "granola",
+       "inc": [
+        "granola"
+       ],
+       "exc": [
+        "barra"
+       ],
+       "u": "kg",
+       "e": "🥣"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "cafe",
+     "n": "Café y té",
+     "v": [
+      {
+       "id": "cafe-instantaneo",
+       "n": "Café instantáneo",
+       "q": "cafe instantaneo",
+       "inc": [
+        "cafe"
+       ],
+       "exc": [
+        "capsula",
+        "grano",
+        "molido",
+        "leche",
+        "galleta",
+        "cafetera"
+       ],
+       "u": "kg",
+       "e": "☕"
+      },
+      {
+       "id": "cafe-molido",
+       "n": "Café molido / grano",
+       "q": "cafe molido",
+       "inc": [
+        "cafe",
+        "molido|grano"
+       ],
+       "exc": [
+        "capsula",
+        "cafetera"
+       ],
+       "u": "kg",
+       "e": "☕"
+      },
+      {
+       "id": "cafe-capsulas",
+       "n": "Cápsulas",
+       "q": "capsulas cafe",
+       "inc": [
+        "capsula"
+       ],
+       "exc": [
+        "cafetera"
+       ],
+       "u": "un",
+       "e": "☕",
+       "x": 1
+      },
+      {
+       "id": "te",
+       "n": "Té",
+       "q": "te bolsitas",
+       "inc": [
+        "=te"
+       ],
+       "exc": [
+        "helado",
+        "frio"
+       ],
+       "u": "un",
+       "e": "🍵"
+      },
+      {
+       "id": "hierbas",
+       "n": "Hierbas / infusiones",
+       "q": "infusion hierbas",
+       "inc": [
+        "infusion|hierba|manzanilla|menta|boldo"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🌿",
+       "x": 1
+      },
+      {
+       "id": "saborizante",
+       "n": "Saborizante (Milo, Nesquik)",
+       "q": "saborizante leche",
+       "inc": [
+        "saborizante|milo|nesquik|cola cao"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🍫",
+       "x": 1
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "azucar",
+     "n": "Azúcar y endulzante",
+     "v": [
+      {
+       "id": "azucar",
+       "n": "Azúcar",
+       "q": "azucar",
+       "inc": [
+        "azucar"
+       ],
+       "exc": [
+        "flor",
+        "sin azucar",
+        "galleta",
+        "bebida"
+       ],
+       "u": "kg",
+       "e": "🍬"
+      },
+      {
+       "id": "endulzante",
+       "n": "Endulzante",
+       "q": "endulzante",
+       "inc": [
+        "endulzante|stevia|sucralosa"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🍬",
+       "x": 1
+      }
+     ],
+     "g": 1,
+     "e": "🍬"
+    },
+    {
+     "id": "untables",
+     "n": "Para untar",
+     "v": [
+      {
+       "id": "mermelada",
+       "n": "Mermelada",
+       "q": "mermelada",
+       "inc": [
+        "mermelada"
+       ],
+       "exc": [
+        "galleta"
+       ],
+       "u": "kg",
+       "e": "🍓"
+      },
+      {
+       "id": "mantequilla-mani",
+       "n": "Mantequilla de maní",
+       "q": "mantequilla de mani",
+       "inc": [
+        "mani"
+       ],
+       "exc": [
+        "confitado",
+        "salado",
+        "japones"
+       ],
+       "u": "kg",
+       "e": "🥜",
+       "x": 1
+      },
+      {
+       "id": "palta-pasta",
+       "n": "Pasta de palta / paté",
+       "q": "pate",
+       "inc": [
+        "pate"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🥫",
+       "x": 1
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "despensa",
+   "n": "Despensa",
+   "e": "🍝",
+   "p": [
+    {
+     "id": "arroz",
+     "n": "Arroz",
+     "v": [
+      {
+       "id": "arroz",
+       "n": "Cualquiera",
+       "q": "arroz",
+       "inc": [
+        "arroz"
+       ],
+       "exc": [
+        "integral",
+        "galleta",
+        "leche",
+        "bebida",
+        "fideo",
+        "harina",
+        "jabon",
+        "chips"
+       ],
+       "u": "kg",
+       "e": "🍚"
+      },
+      {
+       "id": "arroz-g1",
+       "n": "Grado 1",
+       "q": "arroz grado 1",
+       "inc": [
+        "arroz",
+        "g1|grado 1"
+       ],
+       "exc": [
+        "integral"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "arroz-g2",
+       "n": "Grado 2",
+       "q": "arroz grado 2",
+       "inc": [
+        "arroz",
+        "g2|grado 2"
+       ],
+       "exc": [
+        "integral"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "arroz-integral",
+       "n": "Integral",
+       "q": "arroz integral",
+       "inc": [
+        "arroz",
+        "integral"
+       ],
+       "exc": [
+        "galleta"
+       ],
+       "u": "kg"
+      }
+     ],
+     "e": "🍚"
+    },
+    {
+     "id": "fideos",
+     "n": "Fideos",
+     "v": [
+      {
+       "id": "fideos",
+       "n": "Cualquiera",
+       "q": "fideos",
+       "inc": [
+        "fideo|pasta|spaghetti|tallarin|espiral|corbata|rigati|cabello|quifaro|mostachol|penne|fusilli"
+       ],
+       "exc": [
+        "dental",
+        "salsa",
+        "pastelera",
+        "hoja",
+        "lasana"
+       ],
+       "u": "kg",
+       "e": "🍝"
+      },
+      {
+       "id": "spaghetti",
+       "n": "Spaghetti / tallarines",
+       "q": "spaghetti",
+       "inc": [
+        "spaghetti|espagueti|tallarin"
+       ],
+       "exc": [
+        "salsa"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "espirales",
+       "n": "Espirales",
+       "q": "fideos espirales",
+       "inc": [
+        "espiral|fusilli"
+       ],
+       "exc": [],
+       "u": "kg"
+      },
+      {
+       "id": "corbatas",
+       "n": "Corbatas",
+       "q": "fideos corbatas",
+       "inc": [
+        "corbata"
+       ],
+       "exc": [],
+       "u": "kg"
+      },
+      {
+       "id": "lasana",
+       "n": "Lasaña",
+       "q": "lasaña",
+       "inc": [
+        "lasana"
+       ],
+       "exc": [
+        "congelad",
+        "lista"
+       ],
+       "u": "kg",
+       "e": "🍝",
+       "x": 1
+      }
+     ],
+     "e": "🍝"
+    },
+    {
+     "id": "aceite",
+     "n": "Aceite",
+     "v": [
+      {
+       "id": "aceite-vegetal",
+       "n": "Vegetal",
+       "q": "aceite vegetal",
+       "inc": [
+        "aceite",
+        "vegetal"
+       ],
+       "exc": [
+        "oliva",
+        "motor",
+        "bebe",
+        "corporal",
+        "spray",
+        "atun",
+        "jurel"
+       ],
+       "u": "l",
+       "e": "🌻"
+      },
+      {
+       "id": "aceite-maravilla",
+       "n": "Maravilla",
+       "q": "aceite maravilla",
+       "inc": [
+        "aceite",
+        "maravilla"
+       ],
+       "exc": [
+        "atun",
+        "jurel"
+       ],
+       "u": "l",
+       "e": "🌻"
+      },
+      {
+       "id": "aceite-canola",
+       "n": "Canola",
+       "q": "aceite canola",
+       "inc": [
+        "aceite",
+        "canola"
+       ],
+       "exc": [
+        "atun",
+        "jurel"
+       ],
+       "u": "l"
+      },
+      {
+       "id": "aceite-oliva",
+       "n": "Oliva",
+       "q": "aceite de oliva",
+       "inc": [
+        "aceite",
+        "oliva"
+       ],
+       "exc": [
+        "atun",
+        "jurel",
+        "sardina",
+        "corporal"
+       ],
+       "u": "l"
+      }
+     ],
+     "e": "🫒"
+    },
+    {
+     "id": "harina",
+     "n": "Harina",
+     "v": [
+      {
+       "id": "harina-polvos",
+       "n": "Con polvos",
+       "q": "harina con polvos",
+       "inc": [
+        "harina",
+        "polvo"
+       ],
+       "exc": [
+        "maiz",
+        "integral",
+        "pescado"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "harina-sin-polvos",
+       "n": "Sin polvos",
+       "q": "harina sin polvos",
+       "inc": [
+        "harina",
+        "sin polvo"
+       ],
+       "exc": [
+        "maiz",
+        "integral"
+       ],
+       "u": "kg"
+      },
+      {
+       "id": "harina-integral",
+       "n": "Integral",
+       "q": "harina integral",
+       "inc": [
+        "harina",
+        "integral"
+       ],
+       "exc": [],
+       "u": "kg"
+      }
+     ],
+     "e": "🌾"
+    },
+    {
+     "id": "legumbres",
+     "n": "Legumbres",
+     "v": [
+      {
+       "id": "lentejas",
+       "n": "Lentejas",
+       "q": "lentejas",
+       "inc": [
+        "lenteja"
+       ],
+       "exc": [
+        "sopa",
+        "crema"
+       ],
+       "u": "kg",
+       "e": "🫘"
+      },
+      {
+       "id": "porotos",
+       "n": "Porotos",
+       "q": "porotos",
+       "inc": [
+        "poroto"
+       ],
+       "exc": [
+        "verde",
+        "sopa"
+       ],
+       "u": "kg",
+       "e": "🫘"
+      },
+      {
+       "id": "garbanzos",
+       "n": "Garbanzos",
+       "q": "garbanzos",
+       "inc": [
+        "garbanzo"
+       ],
+       "exc": [
+        "hummus"
+       ],
+       "u": "kg",
+       "e": "🫘"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "conservas",
+     "n": "Conservas",
+     "v": [
+      {
+       "id": "atun-agua",
+       "n": "Atún en agua",
+       "q": "atun en agua",
+       "inc": [
+        "atun",
+        "agua"
+       ],
+       "exc": [
+        "gato",
+        "perro"
+       ],
+       "u": "kg",
+       "e": "🐟"
+      },
+      {
+       "id": "atun-aceite",
+       "n": "Atún en aceite",
+       "q": "atun en aceite",
+       "inc": [
+        "atun",
+        "aceite"
+       ],
+       "exc": [
+        "gato",
+        "perro"
+       ],
+       "u": "kg",
+       "e": "🐟"
+      },
+      {
+       "id": "jurel",
+       "n": "Jurel",
+       "q": "jurel",
+       "inc": [
+        "jurel"
+       ],
+       "exc": [
+        "gato",
+        "perro"
+       ],
+       "u": "kg",
+       "e": "🐟"
+      },
+      {
+       "id": "choclo-conserva",
+       "n": "Choclo",
+       "q": "choclo en conserva",
+       "inc": [
+        "choclo"
+       ],
+       "exc": [
+        "congelad",
+        "chips",
+        "pastel"
+       ],
+       "u": "kg",
+       "e": "🌽"
+      },
+      {
+       "id": "arvejas-conserva",
+       "n": "Arvejas",
+       "q": "arvejas en conserva",
+       "inc": [
+        "arveja"
+       ],
+       "exc": [
+        "congelad"
+       ],
+       "u": "kg",
+       "e": "🫛"
+      },
+      {
+       "id": "salsa-tomate",
+       "n": "Salsa de tomate",
+       "q": "salsa de tomate",
+       "inc": [
+        "salsa|pomarola",
+        "tomate|pomarola"
+       ],
+       "exc": [
+        "ketchup"
+       ],
+       "u": "kg",
+       "e": "🍅"
+      },
+      {
+       "id": "tomate-trozos",
+       "n": "Tomate en trozos / pelado",
+       "q": "tomate en trozos",
+       "inc": [
+        "tomate",
+        "trozo|pelado|triturado|picado"
+       ],
+       "exc": [
+        "salsa"
+       ],
+       "u": "kg",
+       "e": "🥫"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "aderezos",
+     "n": "Aderezos",
+     "v": [
+      {
+       "id": "mayonesa",
+       "n": "Mayonesa",
+       "q": "mayonesa",
+       "inc": [
+        "mayonesa"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🫙"
+      },
+      {
+       "id": "ketchup",
+       "n": "Ketchup",
+       "q": "ketchup",
+       "inc": [
+        "ketchup"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🍅"
+      },
+      {
+       "id": "mostaza",
+       "n": "Mostaza",
+       "q": "mostaza",
+       "inc": [
+        "mostaza"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🌭"
+      },
+      {
+       "id": "sal",
+       "n": "Sal",
+       "q": "sal fina",
+       "inc": [
+        "=sal"
+       ],
+       "exc": [
+        "galleta",
+        "papas",
+        "mani",
+        "salsa",
+        "sales de"
+       ],
+       "u": "kg",
+       "e": "🧂"
+      },
+      {
+       "id": "caldo",
+       "n": "Caldo en cubos",
+       "q": "caldo cubos",
+       "inc": [
+        "caldo"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🍲",
+       "x": 1
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "snacks",
+     "n": "Galletas y snacks",
+     "v": [
+      {
+       "id": "galletas",
+       "n": "Galletas dulces",
+       "q": "galletas",
+       "inc": [
+        "galleta"
+       ],
+       "exc": [
+        "soda",
+        "agua",
+        "perro",
+        "gato",
+        "arroz"
+       ],
+       "u": "kg",
+       "e": "🍪"
+      },
+      {
+       "id": "galletas-soda",
+       "n": "Galletas de soda / agua",
+       "q": "galletas soda",
+       "inc": [
+        "galleta",
+        "soda|agua"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🍘"
+      },
+      {
+       "id": "papas-fritas",
+       "n": "Papas fritas",
+       "q": "papas fritas",
+       "inc": [
+        "papa",
+        "frita|chips"
+       ],
+       "exc": [
+        "congelad",
+        "prefrita"
+       ],
+       "u": "kg",
+       "e": "🥔"
+      },
+      {
+       "id": "frutos-secos",
+       "n": "Frutos secos / maní",
+       "q": "mani",
+       "inc": [
+        "mani|almendra|nuez|frutos secos|mix"
+       ],
+       "exc": [
+        "mantequilla",
+        "bebida",
+        "leche",
+        "chocolate"
+       ],
+       "u": "kg",
+       "e": "🥜"
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "verduras",
+   "n": "Frutas y verduras",
+   "e": "🥑",
+   "p": [
+    {
+     "id": "verduras",
+     "n": "Verduras",
+     "v": [
+      {
+       "id": "papa",
+       "n": "Papa",
+       "q": "papa",
+       "inc": [
+        "=papa|=papas"
+       ],
+       "exc": [
+        "frita",
+        "chips",
+        "pure",
+        "prefrita",
+        "congelad",
+        "mayo"
+       ],
+       "u": "kg",
+       "e": "🥔"
+      },
+      {
+       "id": "tomate",
+       "n": "Tomate",
+       "q": "tomate",
+       "inc": [
+        "tomate"
+       ],
+       "exc": [
+        "salsa",
+        "trozo",
+        "pelado",
+        "ketchup",
+        "pasta",
+        "cherry",
+        "seco"
+       ],
+       "u": "kg",
+       "e": "🍅"
+      },
+      {
+       "id": "cebolla",
+       "n": "Cebolla",
+       "q": "cebolla",
+       "inc": [
+        "cebolla"
+       ],
+       "exc": [
+        "frita",
+        "polvo",
+        "sopa",
+        "chips"
+       ],
+       "u": "kg",
+       "e": "🧅"
+      },
+      {
+       "id": "zanahoria",
+       "n": "Zanahoria",
+       "q": "zanahoria",
+       "inc": [
+        "zanahoria"
+       ],
+       "exc": [
+        "congelad",
+        "papilla",
+        "jugo"
+       ],
+       "u": "kg",
+       "e": "🥕"
+      },
+      {
+       "id": "lechuga",
+       "n": "Lechuga",
+       "q": "lechuga",
+       "inc": [
+        "lechuga"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🥬"
+      },
+      {
+       "id": "ajo",
+       "n": "Ajo",
+       "q": "ajo",
+       "inc": [
+        "=ajo"
+       ],
+       "exc": [
+        "polvo",
+        "sal",
+        "pasta"
+       ],
+       "u": "un",
+       "e": "🧄"
+      },
+      {
+       "id": "zapallo",
+       "n": "Zapallo",
+       "q": "zapallo",
+       "inc": [
+        "zapallo"
+       ],
+       "exc": [
+        "crema",
+        "sopa"
+       ],
+       "u": "kg",
+       "e": "🎃"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "frutas",
+     "n": "Frutas",
+     "v": [
+      {
+       "id": "palta",
+       "n": "Palta",
+       "q": "palta hass",
+       "inc": [
+        "palta"
+       ],
+       "exc": [
+        "pasta",
+        "aceite",
+        "salsa",
+        "guacamole"
+       ],
+       "u": "kg",
+       "e": "🥑"
+      },
+      {
+       "id": "platano",
+       "n": "Plátano",
+       "q": "platano",
+       "inc": [
+        "platano"
+       ],
+       "exc": [
+        "leche",
+        "yogh",
+        "chips",
+        "papilla",
+        "sabor"
+       ],
+       "u": "kg",
+       "e": "🍌"
+      },
+      {
+       "id": "manzana",
+       "n": "Manzana",
+       "q": "manzana",
+       "inc": [
+        "manzana"
+       ],
+       "exc": [
+        "jugo",
+        "nectar",
+        "compota",
+        "papilla",
+        "vinagre",
+        "sabor",
+        "yogh"
+       ],
+       "u": "kg",
+       "e": "🍎"
+      },
+      {
+       "id": "naranja",
+       "n": "Naranja",
+       "q": "naranja",
+       "inc": [
+        "naranja"
+       ],
+       "exc": [
+        "jugo",
+        "nectar",
+        "sabor",
+        "bebida"
+       ],
+       "u": "kg",
+       "e": "🍊"
+      },
+      {
+       "id": "limon",
+       "n": "Limón",
+       "q": "limon",
+       "inc": [
+        "limon"
+       ],
+       "exc": [
+        "jugo",
+        "sucedaneo",
+        "bebida",
+        "sabor",
+        "lavaloza",
+        "detergente",
+        "te"
+       ],
+       "u": "kg",
+       "e": "🍋"
+      },
+      {
+       "id": "mandarina",
+       "n": "Mandarina",
+       "q": "mandarina",
+       "inc": [
+        "mandarina"
+       ],
+       "exc": [
+        "jugo",
+        "nectar",
+        "sabor"
+       ],
+       "u": "kg",
+       "e": "🍊"
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "carnes",
+   "n": "Carnes y embutidos",
+   "e": "🍗",
+   "p": [
+    {
+     "id": "pollo",
+     "n": "Pollo",
+     "v": [
+      {
+       "id": "pechuga-pollo",
+       "n": "Pechuga",
+       "q": "pechuga de pollo",
+       "inc": [
+        "pechuga"
+       ],
+       "exc": [
+        "pavo",
+        "apanad",
+        "nugget",
+        "perro",
+        "gato"
+       ],
+       "u": "kg",
+       "e": "🍗"
+      },
+      {
+       "id": "trutro-pollo",
+       "n": "Trutro",
+       "q": "trutro de pollo",
+       "inc": [
+        "trutro"
+       ],
+       "exc": [
+        "pavo",
+        "apanad",
+        "perro",
+        "gato"
+       ],
+       "u": "kg",
+       "e": "🍗"
+      },
+      {
+       "id": "pollo-entero",
+       "n": "Pollo entero",
+       "q": "pollo entero",
+       "inc": [
+        "pollo",
+        "entero"
+       ],
+       "exc": [
+        "perro",
+        "gato"
+       ],
+       "u": "kg",
+       "e": "🐔"
+      }
+     ],
+     "e": "🍗"
+    },
+    {
+     "id": "vacuno",
+     "n": "Vacuno",
+     "v": [
+      {
+       "id": "carne-molida",
+       "n": "Carne molida",
+       "q": "carne molida",
+       "inc": [
+        "molida"
+       ],
+       "exc": [
+        "soya",
+        "pavo",
+        "pollo",
+        "cerdo",
+        "vegetal"
+       ],
+       "u": "kg",
+       "e": "🥩"
+      },
+      {
+       "id": "posta-negra",
+       "n": "Posta negra",
+       "q": "posta negra",
+       "inc": [
+        "posta"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🥩"
+      },
+      {
+       "id": "asiento",
+       "n": "Asiento / bistec",
+       "q": "asiento picana",
+       "inc": [
+        "asiento|bistec|picana"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🥩"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "cerdo",
+     "n": "Cerdo",
+     "v": [
+      {
+       "id": "chuleta-cerdo",
+       "n": "Chuleta",
+       "q": "chuleta de cerdo",
+       "inc": [
+        "chuleta"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🍖"
+      },
+      {
+       "id": "costillar-cerdo",
+       "n": "Costillar",
+       "q": "costillar de cerdo",
+       "inc": [
+        "costillar"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🍖"
+      }
+     ]
+    },
+    {
+     "id": "embutidos",
+     "n": "Embutidos",
+     "v": [
+      {
+       "id": "vienesas",
+       "n": "Vienesas",
+       "q": "vienesas",
+       "inc": [
+        "vienesa|salchicha"
+       ],
+       "exc": [
+        "perro",
+        "gato"
+       ],
+       "u": "kg",
+       "e": "🌭"
+      },
+      {
+       "id": "jamon",
+       "n": "Jamón",
+       "q": "jamon",
+       "inc": [
+        "jamon"
+       ],
+       "exc": [
+        "serrano",
+        "queso crema"
+       ],
+       "u": "kg",
+       "e": "🥓"
+      },
+      {
+       "id": "hamburguesas",
+       "n": "Hamburguesas",
+       "q": "hamburguesas",
+       "inc": [
+        "hamburguesa"
+       ],
+       "exc": [
+        "pan",
+        "vegetal",
+        "soya"
+       ],
+       "u": "kg",
+       "e": "🍔"
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "congelados",
+   "n": "Congelados",
+   "e": "❄️",
+   "p": [
+    {
+     "id": "congelados",
+     "n": "Congelados",
+     "v": [
+      {
+       "id": "verduras-congeladas",
+       "n": "Verduras congeladas",
+       "q": "verduras congeladas",
+       "inc": [
+        "congelad"
+       ],
+       "exc": [
+        "helado",
+        "pizza",
+        "papas",
+        "pescado",
+        "pollo"
+       ],
+       "u": "kg",
+       "e": "🥦"
+      },
+      {
+       "id": "papas-prefritas",
+       "n": "Papas prefritas",
+       "q": "papas prefritas",
+       "inc": [
+        "papa",
+        "prefrita|congelad|corte"
+       ],
+       "exc": [
+        "chips"
+       ],
+       "u": "kg",
+       "e": "🍟"
+      },
+      {
+       "id": "helado",
+       "n": "Helado",
+       "q": "helado",
+       "inc": [
+        "helado"
+       ],
+       "exc": [
+        "te helado",
+        "cafe"
+       ],
+       "u": "l",
+       "e": "🍨",
+       "x": 1
+      },
+      {
+       "id": "pescado-congelado",
+       "n": "Pescado (merluza, reineta)",
+       "q": "merluza congelada",
+       "inc": [
+        "merluza|reineta|tilapia|salmon"
+       ],
+       "exc": [
+        "gato",
+        "perro",
+        "conserva"
+       ],
+       "u": "kg",
+       "e": "🐠",
+       "x": 1
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "bebidas",
+   "n": "Bebidas",
+   "e": "🥤",
+   "p": [
+    {
+     "id": "bebidas",
+     "n": "Bebidas",
+     "v": [
+      {
+       "id": "agua",
+       "n": "Agua mineral",
+       "q": "agua mineral",
+       "inc": [
+        "agua"
+       ],
+       "exc": [
+        "tonica",
+        "oxigenada",
+        "galleta",
+        "colonia",
+        "micelar",
+        "destilada",
+        "perfume"
+       ],
+       "u": "l",
+       "e": "💧"
+      },
+      {
+       "id": "bebida-cola",
+       "n": "Bebida cola",
+       "q": "bebida cola",
+       "inc": [
+        "cola"
+       ],
+       "exc": [
+        "cola cao",
+        "colageno",
+        "zero cal"
+       ],
+       "u": "l",
+       "e": "🥤"
+      },
+      {
+       "id": "bebida",
+       "n": "Bebida (cualquiera)",
+       "q": "bebida",
+       "inc": [
+        "bebida"
+       ],
+       "exc": [
+        "vegetal",
+        "energetica",
+        "isotonica",
+        "lactea",
+        "polvo",
+        "soya",
+        "almendra",
+        "avena"
+       ],
+       "u": "l",
+       "e": "🥤"
+      },
+      {
+       "id": "jugo-liquido",
+       "n": "Jugo / néctar",
+       "q": "nectar",
+       "inc": [
+        "jugo|nectar"
+       ],
+       "exc": [
+        "polvo"
+       ],
+       "u": "l",
+       "e": "🧃"
+      },
+      {
+       "id": "jugo-polvo",
+       "n": "Jugo en polvo",
+       "q": "jugo en polvo",
+       "inc": [
+        "jugo",
+        "polvo"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🧃",
+       "x": 1
+      },
+      {
+       "id": "cerveza",
+       "n": "Cerveza",
+       "q": "cerveza",
+       "inc": [
+        "cerveza"
+       ],
+       "exc": [
+        "sin alcohol"
+       ],
+       "u": "l",
+       "e": "🍺",
+       "x": 1
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "limpieza",
+   "n": "Limpieza",
+   "e": "🧽",
+   "p": [
+    {
+     "id": "ropa",
+     "n": "Lavado de ropa",
+     "v": [
+      {
+       "id": "detergente-liquido",
+       "n": "Detergente líquido",
+       "q": "detergente liquido",
+       "inc": [
+        "detergente",
+        "liquido"
+       ],
+       "exc": [
+        "loza",
+        "lavaloza"
+       ],
+       "u": "l",
+       "e": "🧴"
+      },
+      {
+       "id": "detergente-polvo",
+       "n": "Detergente en polvo",
+       "q": "detergente en polvo",
+       "inc": [
+        "detergente",
+        "polvo"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "📦"
+      },
+      {
+       "id": "suavizante",
+       "n": "Suavizante",
+       "q": "suavizante",
+       "inc": [
+        "suavizante"
+       ],
+       "exc": [],
+       "u": "l",
+       "e": "🌸"
+      },
+      {
+       "id": "quitamanchas",
+       "n": "Quitamanchas",
+       "q": "quitamanchas",
+       "inc": [
+        "quitamancha"
+       ],
+       "exc": [],
+       "u": "l",
+       "e": "✨",
+       "x": 1
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "hogar",
+     "n": "Hogar",
+     "v": [
+      {
+       "id": "lavalozas",
+       "n": "Lavalozas",
+       "q": "lavalozas",
+       "inc": [
+        "lavaloza|loza"
+       ],
+       "exc": [
+        "juego",
+        "plato"
+       ],
+       "u": "l",
+       "e": "🍽️"
+      },
+      {
+       "id": "cloro",
+       "n": "Cloro",
+       "q": "cloro",
+       "inc": [
+        "cloro"
+       ],
+       "exc": [
+        "gel",
+        "piscina"
+       ],
+       "u": "l",
+       "e": "🧪"
+      },
+      {
+       "id": "limpiador-pisos",
+       "n": "Limpiador de pisos",
+       "q": "limpiador pisos",
+       "inc": [
+        "limpiador|limpia",
+        "piso|multiuso"
+       ],
+       "exc": [],
+       "u": "l",
+       "e": "🧹"
+      },
+      {
+       "id": "esponjas",
+       "n": "Esponjas",
+       "q": "esponja",
+       "inc": [
+        "esponja"
+       ],
+       "exc": [
+        "maquillaje",
+        "bano"
+       ],
+       "u": "un",
+       "e": "🧽"
+      },
+      {
+       "id": "bolsas-basura",
+       "n": "Bolsas de basura",
+       "q": "bolsas de basura",
+       "inc": [
+        "bolsa",
+        "basura"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🗑️"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "papel",
+     "n": "Papel",
+     "v": [
+      {
+       "id": "papel-higienico",
+       "n": "Papel higiénico",
+       "q": "papel higienico",
+       "inc": [
+        "papel",
+        "higienic"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🧻"
+      },
+      {
+       "id": "toalla-papel",
+       "n": "Toalla de papel",
+       "q": "toalla de papel",
+       "inc": [
+        "toalla",
+        "papel|nova|cocina"
+       ],
+       "exc": [
+        "higienica",
+        "humeda"
+       ],
+       "u": "un",
+       "e": "🧻"
+      },
+      {
+       "id": "servilletas",
+       "n": "Servilletas",
+       "q": "servilletas",
+       "inc": [
+        "servilleta"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🧻"
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "higiene",
+   "n": "Higiene personal",
+   "e": "🧴",
+   "p": [
+    {
+     "id": "cabello",
+     "n": "Cabello",
+     "v": [
+      {
+       "id": "shampoo",
+       "n": "Shampoo",
+       "q": "shampoo",
+       "inc": [
+        "shampoo|champu"
+       ],
+       "exc": [
+        "perro",
+        "gato",
+        "bebe",
+        "auto"
+       ],
+       "u": "l",
+       "e": "🧴"
+      },
+      {
+       "id": "acondicionador",
+       "n": "Acondicionador",
+       "q": "acondicionador",
+       "inc": [
+        "acondicionador"
+       ],
+       "exc": [
+        "perro"
+       ],
+       "u": "l",
+       "e": "🧴"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "cuerpo",
+     "n": "Cuerpo",
+     "v": [
+      {
+       "id": "jabon-barra",
+       "n": "Jabón en barra",
+       "q": "jabon barra",
+       "inc": [
+        "jabon"
+       ],
+       "exc": [
+        "liquido",
+        "ropa",
+        "loza",
+        "lavaloza"
+       ],
+       "u": "un",
+       "e": "🧼"
+      },
+      {
+       "id": "jabon-liquido",
+       "n": "Jabón líquido",
+       "q": "jabon liquido",
+       "inc": [
+        "jabon",
+        "liquido"
+       ],
+       "exc": [
+        "ropa",
+        "loza",
+        "lavaloza"
+       ],
+       "u": "l",
+       "e": "🧼"
+      },
+      {
+       "id": "desodorante",
+       "n": "Desodorante",
+       "q": "desodorante",
+       "inc": [
+        "desodorante"
+       ],
+       "exc": [
+        "ambiental",
+        "auto",
+        "bano"
+       ],
+       "u": "un",
+       "e": "💨"
+      },
+      {
+       "id": "toallas-higienicas",
+       "n": "Toallas higiénicas",
+       "q": "toallas higienicas",
+       "inc": [
+        "toalla",
+        "higienica|femenin"
+       ],
+       "exc": [],
+       "u": "un",
+       "e": "🌸"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "dental",
+     "n": "Dental",
+     "v": [
+      {
+       "id": "pasta-dental",
+       "n": "Pasta dental",
+       "q": "pasta dental",
+       "inc": [
+        "dental|dientes",
+        "pasta|crema"
+       ],
+       "exc": [
+        "cepillo",
+        "perro"
+       ],
+       "u": "un",
+       "e": "🪥"
+      },
+      {
+       "id": "cepillo-dental",
+       "n": "Cepillo de dientes",
+       "q": "cepillo dental",
+       "inc": [
+        "cepillo",
+        "dental|dientes"
+       ],
+       "exc": [
+        "perro"
+       ],
+       "u": "un",
+       "e": "🪥"
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "bebe",
+   "n": "Bebé",
+   "e": "👶",
+   "p": [
+    {
+     "id": "panales",
+     "n": "Pañales",
+     "v": [
+      {
+       "id": "panales-rn",
+       "n": "Talla RN",
+       "q": "pañales recien nacido",
+       "inc": [
+        "panal",
+        "=rn|recien nacido|prematuro"
+       ],
+       "exc": [
+        "adulto",
+        "toallita"
+       ],
+       "u": "un"
+      },
+      {
+       "id": "panales-p",
+       "n": "Talla P",
+       "q": "pañales talla p",
+       "inc": [
+        "panal",
+        "=p"
+       ],
+       "exc": [
+        "adulto",
+        "toallita"
+       ],
+       "u": "un"
+      },
+      {
+       "id": "panales-m",
+       "n": "Talla M",
+       "q": "pañales talla m",
+       "inc": [
+        "panal",
+        "=m"
+       ],
+       "exc": [
+        "adulto",
+        "toallita"
+       ],
+       "u": "un"
+      },
+      {
+       "id": "panales-g",
+       "n": "Talla G",
+       "q": "pañales talla g",
+       "inc": [
+        "panal",
+        "=g"
+       ],
+       "exc": [
+        "adulto",
+        "toallita"
+       ],
+       "u": "un"
+      },
+      {
+       "id": "panales-xg",
+       "n": "Talla XG",
+       "q": "pañales talla xg",
+       "inc": [
+        "panal",
+        "=xg"
+       ],
+       "exc": [
+        "adulto",
+        "toallita"
+       ],
+       "u": "un"
+      },
+      {
+       "id": "panales-xxg",
+       "n": "Talla XXG",
+       "q": "pañales talla xxg",
+       "inc": [
+        "panal",
+        "=xxg"
+       ],
+       "exc": [
+        "adulto",
+        "toallita"
+       ],
+       "u": "un"
+      }
+     ],
+     "e": "👶"
+    },
+    {
+     "id": "bebe-otros",
+     "n": "Cuidado del bebé",
+     "v": [
+      {
+       "id": "toallitas-humedas",
+       "n": "Toallitas húmedas",
+       "q": "toallitas humedas",
+       "inc": [
+        "toallita"
+       ],
+       "exc": [
+        "desmaquill",
+        "lentes"
+       ],
+       "u": "un",
+       "e": "🧻"
+      },
+      {
+       "id": "formula-infantil",
+       "n": "Fórmula infantil",
+       "q": "formula infantil",
+       "inc": [
+        "formula|leche infantil|etapa"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🍼",
+       "x": 1
+      },
+      {
+       "id": "papilla",
+       "n": "Papillas / colados",
+       "q": "colado bebe",
+       "inc": [
+        "papilla|colado|compota"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🥣",
+       "x": 1
+      }
+     ],
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "mascotas",
+   "n": "Mascotas",
+   "e": "🐾",
+   "p": [
+    {
+     "id": "perro",
+     "n": "Perro",
+     "v": [
+      {
+       "id": "alimento-perro",
+       "n": "Alimento perro adulto",
+       "q": "alimento perro adulto",
+       "inc": [
+        "perro"
+       ],
+       "exc": [
+        "cachorro",
+        "senior",
+        "humedo",
+        "lata",
+        "sobre",
+        "pouch",
+        "snack",
+        "premio",
+        "galleta",
+        "hueso",
+        "juguete",
+        "shampoo",
+        "cama",
+        "correa",
+        "plato",
+        "bolsa"
+       ],
+       "u": "kg",
+       "e": "🐕"
+      },
+      {
+       "id": "perro-cachorro",
+       "n": "Alimento perro cachorro",
+       "q": "alimento perro cachorro",
+       "inc": [
+        "perro|cachorro",
+        "cachorro|puppy"
+       ],
+       "exc": [
+        "humedo",
+        "lata",
+        "sobre",
+        "snack",
+        "premio",
+        "juguete"
+       ],
+       "u": "kg",
+       "e": "🐶"
+      },
+      {
+       "id": "perro-senior",
+       "n": "Alimento perro senior",
+       "q": "alimento perro senior",
+       "inc": [
+        "perro",
+        "senior|7+|adulto mayor"
+       ],
+       "exc": [
+        "humedo",
+        "lata",
+        "sobre",
+        "snack"
+       ],
+       "u": "kg",
+       "e": "🐕"
+      },
+      {
+       "id": "perro-humedo",
+       "n": "Comida húmeda perro (latas, sobres)",
+       "q": "alimento humedo perro",
+       "inc": [
+        "perro",
+        "humedo|lata|sobre|pouch"
+       ],
+       "exc": [
+        "snack",
+        "juguete"
+       ],
+       "u": "un",
+       "e": "🥫"
+      },
+      {
+       "id": "perro-snack",
+       "n": "Snacks y premios perro",
+       "q": "snack perro",
+       "inc": [
+        "perro",
+        "snack|premio|galleta|hueso|dental|stick"
+       ],
+       "exc": [
+        "juguete",
+        "cama"
+       ],
+       "u": "kg",
+       "e": "🦴"
+      },
+      {
+       "id": "bolsas-fecas",
+       "n": "Bolsas para fecas",
+       "q": "bolsas fecas perro",
+       "inc": [
+        "bolsa",
+        "fecas|desecho|perro|mascota"
+       ],
+       "exc": [
+        "basura cocina"
+       ],
+       "u": "un",
+       "e": "💩"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "gato",
+     "n": "Gato",
+     "v": [
+      {
+       "id": "alimento-gato",
+       "n": "Alimento gato adulto",
+       "q": "alimento gato adulto",
+       "inc": [
+        "gato"
+       ],
+       "exc": [
+        "gatito",
+        "kitten",
+        "humedo",
+        "lata",
+        "sobre",
+        "pouch",
+        "arena",
+        "snack",
+        "premio",
+        "juguete",
+        "cama",
+        "plato",
+        "rascador"
+       ],
+       "u": "kg",
+       "e": "🐈"
+      },
+      {
+       "id": "gato-gatito",
+       "n": "Alimento gatito",
+       "q": "alimento gatito",
+       "inc": [
+        "gatito|kitten"
+       ],
+       "exc": [
+        "humedo",
+        "lata",
+        "sobre",
+        "arena",
+        "juguete"
+       ],
+       "u": "kg",
+       "e": "🐱"
+      },
+      {
+       "id": "gato-humedo",
+       "n": "Comida húmeda gato (sobres, latas)",
+       "q": "alimento humedo gato",
+       "inc": [
+        "gato|gatito",
+        "humedo|lata|sobre|pouch"
+       ],
+       "exc": [
+        "arena",
+        "snack",
+        "juguete"
+       ],
+       "u": "un",
+       "e": "🥫"
+      },
+      {
+       "id": "arena-gato",
+       "n": "Arena para gato",
+       "q": "arena gato",
+       "inc": [
+        "arena"
+       ],
+       "exc": [
+        "construccion"
+       ],
+       "u": "kg",
+       "e": "🪣",
+       "x": 1
+      },
+      {
+       "id": "gato-snack",
+       "n": "Snacks gato",
+       "q": "snack gato",
+       "inc": [
+        "gato",
+        "snack|premio|stick|malta|crema"
+       ],
+       "exc": [
+        "arena",
+        "juguete"
+       ],
+       "u": "kg",
+       "e": "🐟"
+      }
+     ],
+     "g": 1
+    },
+    {
+     "id": "otras-mascotas",
+     "n": "Otras mascotas",
+     "v": [
+      {
+       "id": "alimento-peces",
+       "n": "Alimento peces",
+       "q": "alimento peces",
+       "inc": [
+        "pez|peces|acuario|tropical"
+       ],
+       "exc": [
+        "atun",
+        "jurel",
+        "conserva",
+        "congelad"
+       ],
+       "u": "kg",
+       "e": "🐠"
+      },
+      {
+       "id": "alimento-aves",
+       "n": "Alimento aves (alpiste, mezcla)",
+       "q": "alimento aves alpiste",
+       "inc": [
+        "ave|alpiste|canario|loro|periquito|mezcla para aves"
+       ],
+       "exc": [
+        "pollo",
+        "pavo",
+        "huevo"
+       ],
+       "u": "kg",
+       "e": "🐦"
+      },
+      {
+       "id": "alimento-roedores",
+       "n": "Alimento roedores (hámster, conejo)",
+       "q": "alimento hamster conejo",
+       "inc": [
+        "hamster|roedor|conejo|cuy|cobayo"
+       ],
+       "exc": [
+        "juguete",
+        "jaula"
+       ],
+       "u": "kg",
+       "e": "🐹"
+      },
+      {
+       "id": "viruta",
+       "n": "Viruta / lecho",
+       "q": "viruta hamster",
+       "inc": [
+        "viruta|aserrin|lecho|sustrato"
+       ],
+       "exc": [],
+       "u": "kg",
+       "e": "🪵"
+      }
+     ],
+     "g": 1
+    }
+   ]
+  }
+ ]
+}

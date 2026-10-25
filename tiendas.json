@@ -1,0 +1,40 @@
+{
+  "_ayuda": "Direcciones de búsqueda de cada supermercado. {q} se reemplaza por el texto a buscar. Si hay varias, el programa prueba en orden y usa la primera que entregue productos.",
+  "lider": {
+    "n": "Lider",
+    "buscar": [
+      "https://super.lider.cl/search?q={q}",
+      "https://www.lider.cl/supermercado/search?query={q}"
+    ]
+  },
+  "acuenta": {
+    "n": "aCuenta",
+    "buscar": [
+      "https://www.acuenta.cl/search?name={q}",
+      "https://www.acuenta.cl/search?q={q}",
+      "https://www.acuenta.cl/busqueda?q={q}"
+    ]
+  },
+  "jumbo": {
+    "n": "Jumbo",
+    "buscar": [
+      "https://www.jumbo.cl/busqueda?ft={q}",
+      "https://www.jumbo.cl/{q}?_q={q}&map=ft"
+    ]
+  },
+  "santaisabel": {
+    "n": "Santa Isabel",
+    "buscar": [
+      "https://www.santaisabel.cl/busqueda?ft={q}",
+      "https://www.santaisabel.cl/{q}?_q={q}&map=ft"
+    ]
+  },
+  "alvi": {
+    "n": "Alvi",
+    "buscar": [
+      "https://www.alvi.cl/search?q={q}",
+      "https://www.alvi.cl/busqueda?ft={q}",
+      "https://www.alvi.cl/{q}?_q={q}&map=ft"
+    ]
+  }
+}
