@@ -51,6 +51,8 @@
     "buscar": [
       "https://www.tottus.cl/tottus-cl/buscar?Ntt={q}",
       "https://www.tottus.cl/buscar?Ntt={q}"
-    ]
+    ],
+    "auto": false,
+    "nota": "El sitio de Tottus bloquea las búsquedas automáticas; sus precios vienen de las boletas que registren."
   }
 }
